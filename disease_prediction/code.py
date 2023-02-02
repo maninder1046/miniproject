@@ -109,9 +109,9 @@ def NaiveBayes():
         t3.delete("1.0", END)
         t3.insert(END, "No Disease")
 
-shivamGUI = Tk()
-shivamGUI.title(" Disease Prediction Based on Symptoms")
-shivamGUI.configure()
+maninderGUI = Tk()
+maninderGUI.title(" Disease Prediction Based on Symptoms")
+maninderGUI.configure()
 
 Symptom1 = StringVar()
 Symptom1.set(None)
