@@ -37,7 +37,7 @@ for x in range(0,len(l1)):
     l2.append(0)                                                #all element of l2 becomes 0 till length of l1
 
                        # TESTING DATA
-test=pd.read_csv("https://raw.githubusercontent.com/Shivamdobhal/mini_project_disease_prediction/main/testing.csv")              #reading csv file by pd
+test=pd.read_csv("https://raw.githubusercontent.com/maninder1046/miniproject/main/disease_prediction/testing.csv")              #reading csv file by pd
 test.replace({'prognosis':{'Fungal infection':0,'Allergy':1,'GERD':2,'Chronic cholestasis':3,'Drug Reaction':4,
 'Peptic ulcer diseae':5,'AIDS':6,'Diabetes ':7,'Gastroenteritis':8,'Bronchial Asthma':9,'Hypertension ':10,
 'Migraine':11,'Cervical spondylosis':12,
